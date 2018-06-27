@@ -1,0 +1,478 @@
+[2] Pull an existing APK from the device?
+
+Enter your choice:1
+
+Please enter the full path to your APK (ex. /foo/bar/pineapple.apk):
+Path:/home/me/Desktop/challenge4_release.apk
+INFO - Unpacking /home/me/Desktop/challenge4_release.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x7f90d1d017d0>
+INFO - Extracted APK to /home/me/Desktop/challenge4_release/
+/home/me/Desktop/apktool/AndroidManifest.xml
+Inspect Manifest?[y/n]n
+INFO - Determined minimum SDK version to be:24
+
+WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+INFO - Checking provider
+INFO - Checking activity
+WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+
+INFO - Checking activity-alias
+INFO - Checking services
+INFO - Checking receivers
+WARNING - The following receiver are exported, but not protected by any permissions. Failing to protect receiver could leave them vulnerable to attack by malicious apps. The receiver should be reviewed for vulnerabilities, such as injection and information leakage.
+          com.hackerone.mobile.challenge4.MenuActivity
+Press ENTER key to begin decompilationge4.MazeMover
+pathToDex2jar = /home/me/qark/qark/lib/d2j/d2j-dex2jar.sh
+common.pathToDEX = /home/me/Desktop/challenge4_release/classes.dex
+common.pathToUnpackedAPK = /home/me/Desktop/challenge4_release/
+out = /home/me/Desktop/challenge4_release exists, use --force to overwrite
+
+err = None
+Traceback (most recent call last):
+  File "qarkMain.py", line 1282, in <module>
+    nonAutomatedParseArgs()
+  File "qarkMain.py", line 463, in nonAutomatedParseArgs
+    main()
+  File "qarkMain.py", line 791, in main
+    unpackAPK.decompile(common.pathToDEX)
+  File "/home/me/qark/qark/modules/unpackAPK.py", line 142, in decompile
+    zf = zipfile.ZipFile(common.pathToJar)
+  File "/usr/lib/python2.7/zipfile.py", line 756, in __init__
+    self.fp = open(file, modeDict[mode])
+IOError: [Errno 2] No such file or directory: '/home/me/Desktop/challenge4_release/classes_dex2jar.jar'
+➜  qark git:(master) ✗ python qarkMain.py
+
+ .d88888b.           d8888   8888888b.    888    d8P  
+d88P" "Y88b         d88888   888   Y88b   888   d8P   
+888     888        d88P888   888    888   888  d8P    
+888     888       d88P 888   888   d88P   888d88K     
+888     888      d88P  888   8888888P"    8888888b    
+888 Y8b 888     d88P   888   888 T88b     888  Y88b   
+Y88b.Y8b88P    d8888888888   888  T88b    888   Y88b  
+ "Y888888"    d88P     888   888   T88b   888    Y88b 
+        Y8b                                            
+INFO - Initializing...
+INFO - Identified Android SDK installation from a previous run.
+INFO - Initializing QARK
+
+
+Do you want to examine:
+[1] APK
+[2] Source
+
+Enter your choice:1
+
+Do you want to:
+[1] Provide a path to an APK
+[2] Pull an existing APK from the device?
+
+Enter your choice:1
+
+Please enter the full path to your APK (ex. /foo/bar/pineapple.apk):
+Path:/home/me/Desktop/challenge4_release.apk
+INFO - Unpacking /home/me/Desktop/challenge4_release.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x7f81aca6f7d0>
+INFO - Extracted APK to /home/me/Desktop/challenge4_release/
+/home/me/Desktop/apktool/AndroidManifest.xml
+Inspect Manifest?[y/n]n
+INFO - Determined minimum SDK version to be:24
+
+WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+INFO - Checking provider
+INFO - Checking activity
+WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+
+INFO - Checking activity-alias
+INFO - Checking services
+INFO - Checking receivers
+WARNING - The following receiver are exported, but not protected by any permissions. Failing to protect receiver could leave them vulnerable to attack by malicious apps. The receiver should be reviewed for vulnerabilities, such as injection and information leakage.
+          com.hackerone.mobile.challenge4.MenuActivity
+Press ENTER key to begin decompilationge4.MazeMover
+pathToDex2jar = /home/me/qark/qark/lib/d2j/d2j-dex2jar.sh
+common.pathToDEX = /home/me/Desktop/challenge4_release/classes.dex
+common.pathToUnpackedAPK = /home/me/Desktop/challenge4_release/
+out = dex2jar /home/me/Desktop/challenge4_release/classes.dex -> /home/me/Desktop/challenge4_release/classes_dex2jar.jar
+
+err = None
+INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
+
+
+
+JD CORE 100%|#################################################################|
+
+Procyon  99%|################################################################ |
+
+CFR 100%|#####################################################################|
+
+
+Decompilation may hang/take too long (usually happens when the source is obfuscated).
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+
+INFO - Trying to improve accuracy of the decompiled files
+INFO - Restored 21 file(s) out of 22 corrupt file(s)
+INFO - Decompiled code found at:/home/me/Desktop/challenge4_release/
+INFO - Finding all java files
+INFO - Finding all xml files
+
+[1] Exit
+[2] Begin Static Code Analysis
+Enter your choice:2
+INFO - Running Static Code Analysis...
+INFO - Looking for private key files in project
+
+
+Hardcoded API Keys  0%|                                                       |
+
+Hardcoded API Keys100%|#######################################################|
+
+Task Hijacking100%|###########################################################|
+
+Insecure functions100%|#######################################################|
+
+Hardcoded HTTP url  0%|                                                       |
+
+Hardcoded HTTP url100%|#######################################################|
+
+Access Control Checks  0%|                                                    |
+
+Access Control Checks100%|####################################################|
+
+Manifest File Checks100%|#####################################################|
+
+Detect exposed logs100%|######################################################|
+
+External Storage Issues100%|##################################################|
+
+Webview Issues100%|###########################################################|
+
+Dynamically loading code100%|#################################################|
+
+Crypto issues100%|############################################################|
+
+Broadcast issues100%|#########################################################|
+
+Webview checks100%|###########################################################|
+
+X.509 Validation100%|#########################################################|
+
+Pending Intents100%|##########################################################|
+
+File Permissions (check 1)100%|###############################################|
+INFO - Finding AndroidManifest.xml
+File Permissions (check 2)100%|###############################################|
+
+
+
+
+
+
+====================================================================================================
+INFO - This class is exported from a manifest item: MenuActivity
+ERROR - Unable to create tree for parsing
+ERROR - File: /home/me/Desktop/challenge4_release/classes_dex2jar/com/hackerone/mobile/challenge4/MenuActivity.java could not be parsed properly, which will negatively impact results
+====================================================================================================
+INFO - This class is exported from a manifest item: MazeMover
+INFO - Checking this file for vulns: /home/me/Desktop/challenge4_release/classes_dex2jar/com/hackerone/mobile/challenge4/MazeMover.java
+entries: 
+onReceive
+INFO - Checking for extras in this file: /home/me/Desktop/challenge4_release/classes_dex2jar/com/hackerone/mobile/challenge4/MazeMover.java from this entry point: onReceive
+INFO - Possible Extra: localObject of unknown type
+INFO - Possible Extra: "cereal" of type: Serializable
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+ISSUES - CRYPTO ISSUES
+INFO -  No issues to report
+ISSUES - BROADCAST ISSUES
+INFO -  No issues to report
+ISSUES - CERTIFICATE VALIDATION ISSUES
+INFO -  No issues to report
+ISSUES - PENDING INTENT ISSUES
+INFO -  No issues to report
+ISSUES - FILE PERMISSION ISSUES
+INFO -  No issues to report
+ISSUES - WEB-VIEW ISSUES
+INFO - FOUND 0 WEBVIEWS:
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO - API Key Found
+<?xml version="1.0" ?><manifest android:versionCode="1" android:versionName="1.0" package="com.hackerone.mobile.challenge4" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="27"/>
+        <activity android:name="com.hackerone.mobile.challenge4.MenuActivity">
+        <activity android:name="com.hackerone.mobile.challenge4.MainActivity"/>
+        <activity android:name="com.hackerone.mobile.challenge4.InfoActivity"/>
+        <receiver android:name="com.hackerone.mobile.challenge4.MazeMover">
+                <action android:name="com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER"/>
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO - Debug logs are detected
+This may allow potential leakage of information from Android applications.
+Debug logs should never be compiled into an application except during development.
+https://developer.android.com/reference/android/util/Log.html
+
+Filepath:
+/home/me/Desktop/challenge4_release/classes_dex2jar/com/hackerone/mobile/challenge4/GameState.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/util/LogWriter.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/app/NotificationManagerCompat.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/widget/TextViewCompat.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/view/ViewCompat.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v7/app/AppCompatDelegate.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v7/app/TwilightManager.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v7/app/AppCompatDelegateImplV14.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v7/widget/ViewUtils.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v7/widget/AppCompatDrawableManager.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/graphics/drawable/AnimatorInflaterCompat.java
+11 debug logs were found in the application
+
+INFO - Verbose logs are detected
+This may allow potential leakage of information from Android applications.
+Verbose logs should never be compiled into an application except during development.
+https://developer.android.com/reference/android/util/Log.html
+
+Filepath:
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/content/LocalBroadcastManager.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/app/FragmentState.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/app/FragmentManagerImpl.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/app/BackStackState.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/app/BackStackRecord.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/app/LoaderManagerImpl.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/graphics/drawable/VectorDrawableCompat.java 
+/home/me/Desktop/challenge4_release/classes_dex2jar/android/support/constraint/Constraints.java
+8 verbose logs were found in the application
+
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO - Be careful with use of Check permission function
+App maybe vulnerable to Privilege escalation or Confused Deputy Attack. This function can grant access to malicious application, lacking the appropriate permission, by assuming your applications permissions. This means a malicious application, without appropriate permissions, can bypass its permission check by using your applicationpermission to get access to otherwise denied resources. Use - checkCallingPermission instead.
+Filepath: /home/me/Desktop/challenge4_release/classes_dex2jar/android/support/v4/app/NotificationCompatSideChannelService.java
+Reference: https://developer.android.com/reference/android/content/Context.html#checkCallingOrSelfPermission(java.lang.String)
+
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
+ISSUES - ADB EXPLOIT COMMANDS
+INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
+==>EXPORTED ACTIVITIES: 
+0: com.hackerone.mobile.challenge4.MenuActivity
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge4.MenuActivity from this entry point: onCreate
+ERROR - Could not create a tree to find extras in : /home/me/Desktop/challenge4_release/classes_dex2jar/com/hackerone/mobile/challenge4/MenuActivity.java
+INFO - Attempting fall-back method to determine extras
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge4.MenuActivity from this entry point: onStart
+ERROR - Could not create a tree to find extras in : /home/me/Desktop/challenge4_release/classes_dex2jar/com/hackerone/mobile/challenge4/MenuActivity.java
+INFO - Attempting fall-back method to determine extras
+adb shell am start -a "android.intent.action.MAIN" -n "com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity"
+==>EXPORTED RECEIVERS: 
+0: com.hackerone.mobile.challenge4.MazeMover
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge4.MazeMover from this entry point: onReceive
+INFO - Possible Extra: localObject of unknown type
+INFO - Possible Extra: "cereal" of type: Serializable
+INFO - Extra: localObject is not a simple type, or could not be determined. You'll need to append the parameter which corresponds with the correct data type, followed by a key and value, both in quotes.
+Example: adb shell am broadcast -a "com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER" --es "YOURKEYHERE" "YOURVALUEHERE"
+Here are your options for different data types: 
+[-e|--es <EXTRA_KEY> <EXTRA_STRING_VALUE> ...]
+[--esn <EXTRA_KEY> ...]
+[--ez <EXTRA_KEY> <EXTRA_BOOLEAN_VALUE> ...]
+[--ei <EXTRA_KEY> <EXTRA_INT_VALUE> ...]
+[--el <EXTRA_KEY> <EXTRA_LONG_VALUE> ...]
+[--ef <EXTRA_KEY> <EXTRA_FLOAT_VALUE> ...]
+[--eu <EXTRA_KEY> <EXTRA_URI_VALUE> ...]
+[--ecn <EXTRA_KEY> <EXTRA_COMPONENT_NAME_VALUE>]
+[--eia <EXTRA_KEY> <EXTRA_INT_VALUE>[,<EXTRA_INT_VALUE...]]
+[--ela <EXTRA_KEY> <EXTRA_LONG_VALUE>[,<EXTRA_LONG_VALUE...]]
+[--efa <EXTRA_KEY> <EXTRA_FLOAT_VALUE>[,<EXTRA_FLOAT_VALUE...]]
+[--esa <EXTRA_KEY> <EXTRA_STRING_VALUE>[,<EXTRA_STRING_VALUE...]]
+
+
+INFO - Extra: "cereal" is not a simple type, or could not be determined. You'll need to append the parameter which corresponds with the correct data type, followed by a key and value, both in quotes.
+Example: adb shell am broadcast -a "com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER" --es "YOURKEYHERE" "YOURVALUEHERE"
+Here are your options for different data types: 
+[-e|--es <EXTRA_KEY> <EXTRA_STRING_VALUE> ...]
+[--esn <EXTRA_KEY> ...]
+[--ez <EXTRA_KEY> <EXTRA_BOOLEAN_VALUE> ...]
+[--ei <EXTRA_KEY> <EXTRA_INT_VALUE> ...]
+[--el <EXTRA_KEY> <EXTRA_LONG_VALUE> ...]
+[--ef <EXTRA_KEY> <EXTRA_FLOAT_VALUE> ...]
+[--eu <EXTRA_KEY> <EXTRA_URI_VALUE> ...]
+[--ecn <EXTRA_KEY> <EXTRA_COMPONENT_NAME_VALUE>]
+[--eia <EXTRA_KEY> <EXTRA_INT_VALUE>[,<EXTRA_INT_VALUE...]]
+[--ela <EXTRA_KEY> <EXTRA_LONG_VALUE>[,<EXTRA_LONG_VALUE...]]
+[--efa <EXTRA_KEY> <EXTRA_FLOAT_VALUE>[,<EXTRA_FLOAT_VALUE...]]
+[--esa <EXTRA_KEY> <EXTRA_STRING_VALUE>[,<EXTRA_STRING_VALUE...]]
+
+
+
+To view any sticky broadcasts on the device:
+                    adb shell dumpsys activity| grep sticky
+
+INFO - Support for other component types and dynamically adding extras is in the works, please check for updates
+
+For the potential vulnerabilities, do you want to:
+[1] Create a custom APK for exploitation
+[2] Exit
+Enter your choice:1
+Generating exploit payloads for all vulnerabilities
+com.hackerone.mobile.challenge4.MenuActivity
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge4.MenuActivity from this entry point: onCreate
+ERROR - Could not create a tree to find extras in : /home/me/Desktop/challenge4_release/classes_dex2jar/com/hackerone/mobile/challenge4/MenuActivity.java
+INFO - Attempting fall-back method to determine extras
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge4.MenuActivity from this entry point: onStart
+ERROR - Could not create a tree to find extras in : /home/me/Desktop/challenge4_release/classes_dex2jar/com/hackerone/mobile/challenge4/MenuActivity.java
+INFO - Attempting fall-back method to determine extras
+adding value to string: com.hackerone.mobile.challenge4
+adding value to string: com.hackerone.mobile.challenge4.MenuActivity
+com.hackerone.mobile.challenge4.MazeMover
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge4.MazeMover from this entry point: onReceive
+INFO - Possible Extra: localObject of unknown type
+INFO - Possible Extra: "cereal" of type: Serializable
+adding value to string: com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER
+------------ Building Exploit APK ------------
+Downloading https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+..................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Unzipping /home/me/.gradle/wrapper/dists/gradle-2.2.1-all/6dibv5rcnnqlfbq9klf8imrndn/gradle-2.2.1-all.zip to /home/me/.gradle/wrapper/dists/gradle-2.2.1-all/6dibv5rcnnqlfbq9klf8imrndn
+Set executable permissions for: /home/me/.gradle/wrapper/dists/gradle-2.2.1-all/6dibv5rcnnqlfbq9klf8imrndn/gradle-2.2.1/bin/gradle
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/1.1.0/gradle-1.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder/1.1.0/builder-1.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/24.1.0/lint-24.1.0.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-parent/5.1/proguard-parent-5.1.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/1.1.0/builder-test-api-1.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/sdklib/24.1.0/sdklib-24.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/24.1.0/sdk-common-24.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/common/24.1.0/common-24.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/24.1.0/ddmlib-24.1.0.pom
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.pom
+Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/24.1.0/lint-checks-24.1.0.pom
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.pom
+Download https://jcenter.bintray.com/com/android/tools/annotations/24.1.0/annotations-24.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0.pom
+Download https://jcenter.bintray.com/com/android/tools/dvlib/24.1.0/dvlib-24.1.0.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/33/commons-parent-33.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.1.1/httpcomponents-client-4.1.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/17.0/guava-17.0.pom
+Download https://jcenter.bintray.com/com/google/guava/guava-parent/17.0/guava-parent-17.0.pom
+Download https://jcenter.bintray.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.1/httpcomponents-core-4.1.pom
+Download https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/5/commons-parent-5.pom
+Download https://jcenter.bintray.com/org/apache/apache/4/apache-4.pom
+Download https://jcenter.bintray.com/commons-codec/commons-codec/1.4/commons-codec-1.4.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/11/commons-parent-11.pom
+Download https://jcenter.bintray.com/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.pom
+Download https://jcenter.bintray.com/com/android/tools/build/gradle/1.1.0/gradle-1.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/gradle-core/1.1.0/gradle-core-1.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder/1.1.0/builder-1.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint/24.1.0/lint-24.1.0.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.1/proguard-gradle-5.1.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-model/1.1.0/builder-model-1.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/builder-test-api/1.1.0/builder-test-api-1.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/sdklib/24.1.0/sdklib-24.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/sdk-common/24.1.0/sdk-common-24.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/common/24.1.0/common-24.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/build/manifest-merger/24.1.0/manifest-merger-24.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/24.1.0/ddmlib-24.1.0.jar
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar
+Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-checks/24.1.0/lint-checks-24.1.0.jar
+Download https://jcenter.bintray.com/org/eclipse/jdt/core/compiler/ecj/4.4/ecj-4.4.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.1/proguard-base-5.1.jar
+Download https://jcenter.bintray.com/com/android/tools/annotations/24.1.0/annotations-24.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/layoutlib/layoutlib-api/24.1.0/layoutlib-api-24.1.0.jar
+Download https://jcenter.bintray.com/com/android/tools/dvlib/24.1.0/dvlib-24.1.0.jar
+Download https://jcenter.bintray.com/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/17.0/guava-17.0.jar
+Download https://jcenter.bintray.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+Download https://jcenter.bintray.com/com/android/tools/lint/lint-api/24.1.0/lint-api-24.1.0.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar
+Download https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+Download https://jcenter.bintray.com/commons-codec/commons-codec/1.4/commons-codec-1.4.jar
+Download https://jcenter.bintray.com/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar
+/home/me/qark/qark/settings.properties
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/
+Using highest found SDK 21
+/home/me/qark/qark/settings.properties
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/
+Using latest found build tools 21.1.2
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72221Library
+:app:prepareComAndroidSupportDesign2221Library
+:app:prepareComAndroidSupportRecyclerviewV72221Library
+:app:prepareComAndroidSupportSupportV42221Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+
+/home/me/qark/qark/build/qark/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png: Error: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt'' finished with non-zero exit value 127
+:app:mergeDebugResources FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeDebugResources'.
+> /home/me/qark/qark/build/qark/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-mdpi/abc_switch_track_mtrl_alpha.9.png: Error: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt'' finished with non-zero exit value 127
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 1 mins 25.735 secs
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+Do you want to install this to your device? (y/n)n
+INFO - The apk can be found in the /home/me/qark/qark/build/qark directory
+An html report of the findings is located in : /home/me/qark/qark/report
+Goodbye!
+➜  qark git:(master) ✗ 
