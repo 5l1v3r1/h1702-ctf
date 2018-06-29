@@ -1,0 +1,629 @@
+06-28 16:33:56.668 12456 12456 D FPASSWDPWN: onReceive is called
+06-28 16:33:56.668 12456 12456 D FPASSWDPWN: start_game rececived
+06-28 16:33:56.670 12456 12456 D FPASSWDPWN: start_game sent
+06-28 16:33:56.670  1809  8349 I ActivityManager: START u0 {cmp=com.hackerone.mobile.challenge4/.MainActivity} from uid 10058
+06-28 16:33:56.710  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:33:56.711 12456 12472 D         : HostConnection::get() New Host Connection established 0x70521404a180, tid 12472
+06-28 16:33:56.717  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:33:56.719 12456 12472 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 16:33:56.719 12456 12472 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+06-28 16:33:56.720 12456 12472 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 16:33:56.720 12456 12472 D OpenGLRenderer: Swap behavior 1
+06-28 16:33:56.721  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:33:56.721 12456 12472 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 16:33:56.722 12456 12472 D OpenGLRenderer: Swap behavior 0
+06-28 16:33:56.730 12456 12472 D EGL_emulation: eglCreateContext: 0x70521404e2c0: maj 3 min 1 rcv 4
+06-28 16:33:56.769 12456 12472 D EGL_emulation: eglMakeCurrent: 0x70521404e2c0: ver 3 1 (tinfo 0x70521400dc00)
+06-28 16:33:56.771 12456 12472 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:33:56.771 12456 12472 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:33:56.775  1661  1689 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 16:33:56.788  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:33:56.817 12456 12472 D EGL_emulation: eglMakeCurrent: 0x70521404e2c0: ver 3 1 (tinfo 0x70521400dc00)
+06-28 16:33:56.845  2340  2418 D EGL_emulation: eglMakeCurrent: 0x7052140350e0: ver 3 1 (tinfo 0x70521400db80)
+06-28 16:33:56.955  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:33:56.981  1809  8349 D         : HostConnection::get() New Host Connection established 0x7052141d1740, tid 8349
+06-28 16:33:57.005 12138 12138 I com.hackerone.mobile.challenge4.MainActivity: Title
+06-28 16:33:57.029 12138 12149 I bile.challenge: Background concurrent copying GC freed 2047(238KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 1726KB/3MB, paused 5.255ms total 36.357ms
+06-28 16:33:57.046  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:33:57.051  1531  1581 I chatty  : uid=1000(system) HwBinder:1531_2 identical 1 line
+06-28 16:33:57.054  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:33:57.073 12138 12138 I MAZE    : 16.0
+06-28 16:33:57.075 12138 12157 D EGL_emulation: eglMakeCurrent: 0x7052140397c0: ver 3 1 (tinfo 0x70521400dd40)
+06-28 16:33:57.096  1809  1832 I ActivityManager: Displayed com.hackerone.mobile.challenge4/.MainActivity: +146ms
+06-28 16:33:57.105  1661  1689 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.challenge4_exploit#0
+06-28 16:33:57.106  1661  1689 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.challenge4_exploit#0
+06-28 16:33:57.263  1661  1877 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.hackerone.mobile.challenge4#0
+06-28 16:33:57.263  1661  1877 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.hackerone.mobile.challenge4#0
+06-28 16:33:57.563 12456 12472 D EGL_emulation: eglMakeCurrent: 0x70521404e2c0: ver 3 1 (tinfo 0x70521400dc00)
+06-28 16:33:57.587  1809  2994 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 16:33:57.587  1809  2994 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+06-28 16:33:57.587  1809  2994 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 16:33:57.587  1809  2994 D OpenGLRenderer: Swap behavior 1
+06-28 16:33:57.588  1809  2994 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 16:33:57.588  1809  2994 D OpenGLRenderer: Swap behavior 0
+06-28 16:33:57.592  1809  2994 D EGL_emulation: eglCreateContext: 0x705219a954c0: maj 3 min 1 rcv 4
+06-28 16:33:57.602  1809  2994 D EGL_emulation: eglMakeCurrent: 0x705219a954c0: ver 3 1 (tinfo 0x705210d2fe40)
+06-28 16:33:57.609  1809  2994 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:33:57.609  1809  2994 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:33:59.557  1524  1584 W audio_hw_generic: Not supplying enough data to HAL, expected position 20752954 , only wrote 20556720
+06-28 16:33:59.626  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@46e3aa)
+06-28 16:33:59.626  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@46e3aa)
+06-28 16:34:01.917 12456 12456 D FPASSWDPWN: onReceive is called
+06-28 16:34:01.917 12456 12456 D FPASSWDPWN: cereal received
+06-28 16:34:01.917 12456 12456 D FPASSWDPWN: filePath = /data/user/0/com.challenge4_exploit/files/fake.state
+06-28 16:34:01.920 12456 12456 D FPASSWDPWN: cereal payload1 sent
+06-28 16:34:01.920 12456 12456 D FPASSWDPWN: cereal sent
+06-28 16:34:01.921  1809  8349 W BroadcastQueue: Background execution not allowed: receiving Intent { act=com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER flg=0x10 (has extras) } to com.hackerone.mobile.challenge4/.MazeMover
+06-28 16:34:01.923 12138 12138 D AndroidRuntime: Shutting down VM
+06-28 16:34:01.924 12138 12138 E AndroidRuntime: FATAL EXCEPTION: main
+06-28 16:34:01.924 12138 12138 E AndroidRuntime: Process: com.hackerone.mobile.challenge4, PID: 12138
+06-28 16:34:01.924 12138 12138 E AndroidRuntime: java.lang.RuntimeException: Error receiving broadcast Intent { act=com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER flg=0x10 (has extras) } in com.hackerone.mobile.challenge4.MainActivity$1@cab24d1
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1363)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA.run(Unknown Source:2)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.os.Handler.handleCallback(Handler.java:873)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.os.Handler.dispatchMessage(Handler.java:99)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.os.Looper.loop(Looper.java:193)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.app.ActivityThread.main(ActivityThread.java:6642)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at java.lang.reflect.Method.invoke(Native Method)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.indexOf(int)' on a null object reference
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.app.ContextImpl.makeFilename(ContextImpl.java:2523)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.app.ContextImpl.openFileInput(ContextImpl.java:559)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.content.ContextWrapper.openFileInput(ContextWrapper.java:202)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at com.hackerone.mobile.challenge4.StateLoader.load(StateLoader.java:47)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at com.hackerone.mobile.challenge4.GameState.initialize(GameState.java:36)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at com.hackerone.mobile.challenge4.MazeMover.onReceive(MazeMover.java:73)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at com.hackerone.mobile.challenge4.MainActivity$1.onReceive(MainActivity.java:35)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1353)
+06-28 16:34:01.924 12138 12138 E AndroidRuntime:        ... 8 more
+06-28 16:34:01.925 12456 12456 D AndroidRuntime: Shutting down VM
+06-28 16:34:01.925 12456 12456 E AndroidRuntime: FATAL EXCEPTION: main
+06-28 16:34:01.925 12456 12456 E AndroidRuntime: Process: com.challenge4_exploit, PID: 12456
+06-28 16:34:01.925 12456 12456 E AndroidRuntime: java.lang.RuntimeException: Error receiving broadcast Intent { act=com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER flg=0x10 (has extras) } in com.challenge4_exploit.MainActivity$2@ac1ff49
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1363)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA.run(Unknown Source:2)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.Handler.handleCallback(Handler.java:873)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.Handler.dispatchMessage(Handler.java:99)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.Looper.loop(Looper.java:193)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.app.ActivityThread.main(ActivityThread.java:6642)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.lang.reflect.Method.invoke(Native Method)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime: Caused by: java.lang.RuntimeException: Parcelable
+encountered IOException reading a Serializable object (name = com.hackerone.mobile.challenge4.GameState)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.Parcel.readSerializable(Parcel.java:2921)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.Parcel.readValue(Parcel.java:2711)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.Parcel.readArrayMapInternal(Parcel.java:3029)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.BaseBundle.initializeFromParcelLocked(BaseBundle.java:288)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.BaseBundle.unparcel(BaseBundle.java:232)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.BaseBundle.containsKey(BaseBundle.java:504)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.content.Intent.hasExtra(Intent.java:7218)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at com.challenge4_exploit.MainActivity$2.onReceive(MainActivity.java:32)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1353)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        ... 8 more
+06-28 16:34:01.925 12456 12456 E AndroidRuntime: Caused by: java.io.InvalidClassException: com.hackerone.mobile.challenge4.StateLoader; no valid constructor
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectStreamClass$ExceptionInfo.newInvalidClassException(ObjectStreamClass.java:154)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectStreamClass.checkDeserialize(ObjectStreamClass.java:799)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1777)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1353)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2002)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1926)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1803)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1353)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at java.io.ObjectInputStream.readObject(ObjectInputStream.java:373)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        at android.os.Parcel.readSerializable(Parcel.java:2919)
+06-28 16:34:01.925 12456 12456 E AndroidRuntime:        ... 16 more
+06-28 16:34:01.928  1809  8349 W ActivityManager:   Force finishing activity com.hackerone.mobile.challenge4/.MainActivity
+06-28 16:34:01.941 12138 12138 I Process : Sending signal. PID: 12138 SIG: 9
+06-28 16:34:01.941  1809  3041 W ActivityManager:   Force finishing activity com.challenge4_exploit/.MainActivity
+06-28 16:34:01.946 12456 12456 I Process : Sending signal. PID: 12456 SIG: 9
+06-28 16:34:01.991  1809  1878 W InputDispatcher: channel '20f4d87 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity (server)' ~ Consumer closed input channel or an error
+occurred.  events=0x9
+06-28 16:34:01.991  1809  1878 E InputDispatcher: channel '20f4d87 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-28 16:34:01.991  1809  1878 W InputDispatcher: channel '24b22ce com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity (server)' ~ Consumer closed input channel or an error
+occurred.  events=0x9
+06-28 16:34:01.991  1809  1878 E InputDispatcher: channel '24b22ce com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-28 16:34:01.991  1662  1662 I Zygote  : Process 12138 exited due to signal (9)
+06-28 16:34:01.993  1809  1920 I WindowManager: WIN DEATH: Window{20f4d87 u0 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity}
+06-28 16:34:01.994  1809  1920 W InputDispatcher: Attempted to unregister already unregistered input channel '20f4d87 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity (server)'
+06-28 16:34:01.995  1809  8349 I ActivityManager: Process com.hackerone.mobile.challenge4 (pid 12138) has died: fore TOP
+06-28 16:34:01.995  1809  1827 W libprocessgroup: kill(-12138, 9) failed: No such process
+06-28 16:34:01.995  1809  1827 I libprocessgroup: Successfully killed process cgroup uid 10058 pid
+12138 in 0ms
+06-28 16:34:01.997  1809  1821 I WindowManager: WIN DEATH: Window{24b22ce u0 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity}
+06-28 16:34:01.997  1809  1821 W InputDispatcher: Attempted to unregister already unregistered input channel '24b22ce com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity (server)'
+06-28 16:34:02.002  1809  1878 W InputDispatcher: channel 'f384545 com.challenge4_exploit/com.challenge4_exploit.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-28 16:34:02.002  1809  1878 E InputDispatcher: channel 'f384545 com.challenge4_exploit/com.challenge4_exploit.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-28 16:34:02.003  1662  1662 I Zygote  : Process 12456 exited due to signal (9)
+06-28 16:34:02.005  1809  3041 I WindowManager: WIN DEATH: Window{f384545 u0 com.challenge4_exploit/com.challenge4_exploit.MainActivity}
+06-28 16:34:02.005  1809  3041 W InputDispatcher: Attempted to unregister already unregistered input channel 'f384545 com.challenge4_exploit/com.challenge4_exploit.MainActivity (server)'
+06-28 16:34:02.009  1661  1689 W SurfaceFlinger: Attempting to set client state on removed layer: com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity#0
+06-28 16:34:02.010  1661  1689 W SurfaceFlinger: Attempting to destroy on removed layer: com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity#0
+06-28 16:34:02.018  1809  2022 I ActivityManager: Process com.challenge4_exploit (pid 12456) has died: cch  CRE
+06-28 16:34:02.019  1809  1827 W libprocessgroup: kill(-12456, 9) failed: No such process
+06-28 16:34:02.019  1809  1827 I libprocessgroup: Successfully killed process cgroup uid 10060 pid
+12456 in 0ms
+06-28 16:34:02.083  1661  1691 W SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{71f01c7 token=Token{d240706 ActivityRecord{576ede1 u0 com.challenge4_exploit/.MainActivity t78}}}#0
+06-28 16:34:02.090  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:34:02.092  1809  1832 W ActivityManager: setHasOverlayUi called on unknown pid: 12456
+06-28 16:34:02.092  1809  1826 W ActivityManager: Slow operation: 78ms so far, now at startProcess: asking zygote to start proc
+06-28 16:34:02.093  1809  1832 W ActivityManager: setHasOverlayUi called on unknown pid: 12138
+06-28 16:34:02.101 12483 12483 W bile.challenge: Unexpected CPU variant for X86 using defaults: x86_64
+06-28 16:34:02.104  1809  1826 W ActivityManager: Slow operation: 91ms so far, now at startProcess: returned from zygote!
+06-28 16:34:02.105  1809  1826 W ActivityManager: Slow operation: 91ms so far, now at startProcess: done updating battery stats
+06-28 16:34:02.105  1809  1826 W ActivityManager: Slow operation: 91ms so far, now at startProcess: building log message
+06-28 16:34:02.105  1809  1826 I ActivityManager: Start proc 12483:com.hackerone.mobile.challenge4/u0a58 for activity com.hackerone.mobile.challenge4/.MenuActivity
+06-28 16:34:02.105  1809  1826 W ActivityManager: Slow operation: 91ms so far, now at startProcess: starting to update pids map
+06-28 16:34:02.105  1809  1826 W ActivityManager: Slow operation: 91ms so far, now at startProcess: done updating pids map
+06-28 16:34:02.173  1809  2022 W ActivityManager: Slow operation: 58ms so far, now at attachApplicationLocked: after mServices.attachApplicationLocked
+06-28 16:34:02.195 12483 12483 I bile.challenge: The ClassLoaderContext is a special shared library.
+06-28 16:34:02.237 12483 12483 W bile.challenge: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+06-28 16:34:02.238 12483 12483 W bile.challenge: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+06-28 16:34:02.256 12483 12483 D OpenGLRenderer: Skia GL Pipeline
+06-28 16:34:02.261  1661  1691 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 16:34:02.296  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:34:02.297 12483 12501 D         : HostConnection::get() New Host Connection established 0x705219b875c0, tid 12501
+06-28 16:34:02.298  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:34:02.301  1531  1531 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:34:02.304 12483 12501 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 16:34:02.305 12483 12501 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+06-28 16:34:02.305 12483 12501 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 16:34:02.305 12483 12501 D OpenGLRenderer: Swap behavior 1
+06-28 16:34:02.306 12483 12501 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 16:34:02.306 12483 12501 D OpenGLRenderer: Swap behavior 0
+06-28 16:34:02.310 12483 12501 D EGL_emulation: eglCreateContext: 0x705219a95240: maj 3 min 1 rcv 4
+06-28 16:34:02.329 12483 12501 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96b60)
+06-28 16:34:02.333 12483 12501 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:34:02.333 12483 12501 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:34:02.335  1661  1691 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 16:34:02.349 12483 12501 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96b60)
+06-28 16:34:02.396  1809  1832 I ActivityManager: Displayed com.hackerone.mobile.challenge4/.MenuActivity: +381ms
+06-28 16:34:02.572  1661  1691 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.hackerone.mobile.challenge4#0
+06-28 16:34:02.572  1661  1691 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.hackerone.mobile.challenge4#0
+
+
+=======================================================
+
+06-28 16:39:13.648 12549 12549 D FPASSWDPWN: onReceive is called
+06-28 16:39:13.648 12549 12549 D FPASSWDPWN: start_game rececived
+06-28 16:39:13.649 12549 12549 D FPASSWDPWN: start_game sent
+06-28 16:39:13.670  1809  1821 I ActivityManager: START u0 {cmp=com.hackerone.mobile.challenge4/.MainActivity} from uid 10058
+06-28 16:39:13.670  1531  1531 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:13.679  1531  1531 I chatty  : uid=1000(system) allocator@2.0-s identical 2 lines
+06-28 16:39:13.715  1531  1531 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:13.715 12549 12567 D         : HostConnection::get() New Host Connection established 0x70521404a300, tid 12567
+06-28 16:39:13.717 12549 12567 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 16:39:13.717 12549 12567 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+06-28 16:39:13.718 12549 12567 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 16:39:13.718 12549 12567 D OpenGLRenderer: Swap behavior 1
+06-28 16:39:13.722 12549 12567 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 16:39:13.722 12549 12567 D OpenGLRenderer: Swap behavior 0
+06-28 16:39:13.733 12549 12567 D EGL_emulation: eglCreateContext: 0x70521404e2c0: maj 3 min 1 rcv 4
+06-28 16:39:13.772 12549 12567 D EGL_emulation: eglMakeCurrent: 0x70521404e2c0: ver 3 1 (tinfo 0x70521400db80)
+06-28 16:39:13.774 12549 12567 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:39:13.774 12549 12567 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:39:13.778  1661  1875 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 16:39:13.808 12549 12567 D EGL_emulation: eglMakeCurrent: 0x70521404e2c0: ver 3 1 (tinfo 0x70521400db80)
+06-28 16:39:13.923  1661  1661 D SurfaceFlinger: duplicate layer name: changing Surface(name=AppWindowToken{8eef496 token=Token{1a9d7b1 ActivityRecord{a623a58 u0 com.challenge4_exploit/.MainActivity t79}}})/@0xce52507 - animation-leash to Surface(name=AppWindowToken{8eef496 token=Token{1a9d7b1 ActivityRecord{a623a58 u0 com.challenge4_exploit/.MainActivity t79}}})/@0xce52507 - animation-leash#1
+06-28 16:39:13.952 12483 12483 I com.hackerone.mobile.challenge4.MainActivity: Title
+06-28 16:39:13.997  1531  1531 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:14.006  1531  1531 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:14.009  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:14.023 12483 12483 I MAZE    : 16.0
+06-28 16:39:14.037 12483 12501 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96b60)
+06-28 16:39:14.060  1809  1832 I ActivityManager: Displayed com.hackerone.mobile.challenge4/.MainActivity: +138ms
+06-28 16:39:14.068 12483 12501 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96b60)
+06-28 16:39:14.085 12483 12501 I chatty  : uid=10058(com.hackerone.mobile.challenge4) RenderThread
+identical 1 line
+06-28 16:39:14.106 12483 12501 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96b60)
+06-28 16:39:14.108  1661  1689 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.challenge4_exploit#0
+06-28 16:39:14.109  1661  1689 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.challenge4_exploit#0
+06-28 16:39:14.228 12549 12567 D EGL_emulation: eglMakeCurrent: 0x70521404e2c0: ver 3 1 (tinfo 0x70521400db80)
+06-28 16:39:14.234  1661  2171 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.hackerone.mobile.challenge4#0
+06-28 16:39:14.234  1661  2171 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.hackerone.mobile.challenge4#0
+06-28 16:39:14.254 12483 12501 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96b60)
+06-28 16:39:14.282  1661  1877 W SurfaceFlinger: Attempting to set client state on removed layer: com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity#0
+06-28 16:39:14.282  1661  1877 W SurfaceFlinger: Attempting to destroy on removed layer: com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity#0
+06-28 16:39:14.390  1809  2994 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 16:39:14.390  1809  2994 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+06-28 16:39:14.390  1809  2994 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 16:39:14.390  1809  2994 D OpenGLRenderer: Swap behavior 1
+06-28 16:39:14.391  1809  2994 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 16:39:14.391  1809  2994 D OpenGLRenderer: Swap behavior 0
+06-28 16:39:14.399  1809  2994 D EGL_emulation: eglCreateContext: 0x7051fd622f00: maj 3 min 1 rcv 4
+06-28 16:39:14.406  1809  2994 D EGL_emulation: eglMakeCurrent: 0x7051fd622f00: ver 3 1 (tinfo 0x705210d2fe40)
+06-28 16:39:14.413  1809  2994 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:39:15.819  1809  2288 V BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
+06-28 16:39:15.819  1809  2288 V BackupManagerConstants: getFullBackupRequireCharging(...) returns
+true
+06-28 16:39:14.414  1809  2994 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:39:17.338  1809  3041 E memtrack: Couldn't load memtrack module
+06-28 16:39:17.338  1809  3041 W android.os.Debug: failed to get memory consumption info: -1
+06-28 16:39:17.679  1675  1727 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+06-28 16:39:19.654  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@8051206)
+06-28 16:39:19.655  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@8051206)
+06-28 16:39:27.195 12549 12549 D FPASSWDPWN: onReceive is called
+06-28 16:39:27.195 12549 12549 D FPASSWDPWN: cereal received
+06-28 16:39:27.198 12549 12549 D FPASSWDPWN: cereal payload sent
+06-28 16:39:27.198 12549 12549 D FPASSWDPWN: cereal sent
+06-28 16:39:27.198 12483 12483 D AndroidRuntime: Shutting down VM
+06-28 16:39:27.199  1809  8349 W BroadcastQueue: Background execution not allowed: receiving Intent { act=com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER flg=0x10 (has extras) } to com.hackerone.mobile.challenge4/.MazeMover
+06-28 16:39:27.199 12483 12483 E AndroidRuntime: FATAL EXCEPTION: main
+06-28 16:39:27.199 12483 12483 E AndroidRuntime: Process: com.hackerone.mobile.challenge4, PID: 12483
+06-28 16:39:27.199 12483 12483 E AndroidRuntime: java.lang.RuntimeException: Error receiving broadcast Intent { act=com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER flg=0x10 (has extras) } in com.hackerone.mobile.challenge4.MainActivity$1@16a2e7f
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1363)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA.run(Unknown Source:2)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at android.os.Handler.handleCallback(Handler.java:873)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at android.os.Handler.dispatchMessage(Handler.java:99)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at android.os.Looper.loop(Looper.java:193)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at android.app.ActivityThread.main(ActivityThread.java:6642)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at java.lang.reflect.Method.invoke(Native Method)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object com.hackerone.mobile.challenge4.StateController.load(android.content.Context)' on a null object reference
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at com.hackerone.mobile.challenge4.GameState.initialize(GameState.java:36)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at com.hackerone.mobile.challenge4.MazeMover.onReceive(MazeMover.java:73)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at com.hackerone.mobile.challenge4.MainActivity$1.onReceive(MainActivity.java:35)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1353)
+06-28 16:39:27.199 12483 12483 E AndroidRuntime:        ... 8 more
+06-28 16:39:27.201  1809  3041 W ActivityManager:   Force finishing activity com.hackerone.mobile.challenge4/.MainActivity
+06-28 16:39:27.206 12483 12483 I Process : Sending signal. PID: 12483 SIG: 9
+06-28 16:39:27.215  1717  1733 D hwcomposer: hw_composer sent 30 syncs in 345s
+06-28 16:39:27.260  1809  1878 W InputDispatcher: channel '67f4c4 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-28 16:39:27.261  1809  1878 E InputDispatcher: channel '67f4c4 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-28 16:39:27.262  1809  1878 W InputDispatcher: channel '6bb0703 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity (server)' ~ Consumer closed input channel or an error
+occurred.  events=0x9
+06-28 16:39:27.262  1809  1878 E InputDispatcher: channel '6bb0703 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-28 16:39:27.264  1809  2789 I WindowManager: WIN DEATH: Window{67f4c4 u0 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity}
+06-28 16:39:27.264  1809  2789 W InputDispatcher: Attempted to unregister already unregistered input channel '67f4c4 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity (server)'
+06-28 16:39:27.265  1809  3041 I ActivityManager: Process com.hackerone.mobile.challenge4 (pid 12483) has died: fore TOP
+06-28 16:39:27.266  1809  1827 W libprocessgroup: kill(-12483, 9) failed: No such process
+06-28 16:39:27.267  1662  1662 I Zygote  : Process 12483 exited due to signal (9)
+06-28 16:39:27.267  1809  2022 I WindowManager: WIN DEATH: Window{6bb0703 u0 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity}
+06-28 16:39:27.268  1809  2022 W InputDispatcher: Attempted to unregister already unregistered input channel '6bb0703 com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MenuActivity (server)'
+06-28 16:39:27.272  1661  1689 W SurfaceFlinger: Attempting to set client state on removed layer: com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity#0
+06-28 16:39:27.272  1661  1689 W SurfaceFlinger: Attempting to destroy on removed layer: com.hackerone.mobile.challenge4/com.hackerone.mobile.challenge4.MainActivity#0
+06-28 16:39:27.311  1809  1827 W libprocessgroup: kill(-12483, 9) failed: No such process
+06-28 16:39:27.311  1809  1827 I libprocessgroup: Successfully killed process cgroup uid 10058 pid
+12483 in 45ms
+06-28 16:39:27.603  1809  3041 W system_server: Long monitor contention with owner android.anim (1859) at int com.android.server.wm.WindowManagerService.addWindow(com.android.server.wm.Session, android.view.IWindow, int, android.view.WindowManager$LayoutParams, int, int, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.view.DisplayCutout$ParcelableWrapper, android.view.InputChannel)(WindowManagerService.java:1139) waiters=0 in boolean com.android.server.wm.WindowManagerService.containsShowWhenLockedWindow(android.os.IBinder) for 325ms
+06-28 16:39:27.609  1809  1832 W system_server: Long monitor contention with owner Binder:1809_C (3041) at void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied()(ActivityManagerService.java:1876) waiters=1 in void com.android.server.am.ActivityManagerService$LocalService.setHasOverlayUi(int, boolean) for 336ms
+06-28 16:39:27.610  1809  1832 W ActivityManager: setHasOverlayUi called on unknown pid: 12483
+06-28 16:39:27.610  1809  1826 W system_server: Long monitor contention with owner Binder:1809_C (3041) at void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied()(ActivityManagerService.java:1876) waiters=2 in void com.android.server.am.ActivityManagerService.lambda$startProcessLocked$0(com.android.server.am.ActivityManagerService, com.android.server.am.ProcessRecord,
+long, java.lang.String, java.lang.String, int[], int, int, java.lang.String, java.lang.String) for
+332ms
+06-28 16:39:27.610  1809  1826 W ActivityManager: Slow operation: 333ms so far, now at startProcess: asking zygote to start proc
+06-28 16:39:27.619  1809  1825 W Looper  : Slow dispatch took 352ms android.ui h=com.android.server.am.ActivityManagerService$UiHandler c=null m=53
+06-28 16:39:27.619  1809  1825 W Looper  : Slow delivery took 353ms android.ui h=com.android.server.policy.PhoneWindowManager$PolicyHandler c=com.android.server.policy.PhoneWindowManager$20@aeee978
+m=0
+06-28 16:39:27.622  1809  1826 W ActivityManager: Slow operation: 344ms so far, now at startProcess: returned from zygote!
+06-28 16:39:27.622  1809  1826 W ActivityManager: Slow operation: 345ms so far, now at startProcess: done updating battery stats
+06-28 16:39:27.622  1809  1826 W ActivityManager: Slow operation: 345ms so far, now at startProcess: building log message
+06-28 16:39:27.623  1809  1826 I ActivityManager: Start proc 12579:com.hackerone.mobile.challenge4/u0a58 for activity com.hackerone.mobile.challenge4/.MenuActivity
+06-28 16:39:27.623  1809  1826 W ActivityManager: Slow operation: 345ms so far, now at startProcess: starting to update pids map
+06-28 16:39:27.623  1809  1826 W ActivityManager: Slow operation: 345ms so far, now at startProcess: done updating pids map
+06-28 16:39:27.624 12579 12579 W bile.challenge: Unexpected CPU variant for X86 using defaults: x86_64
+06-28 16:39:27.674  1809  1825 W Looper  : Drained
+06-28 16:39:27.686  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:27.687 12579 12579 I bile.challenge: The ClassLoaderContext is a special shared library.
+06-28 16:39:27.739 12579 12579 W bile.challenge: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+06-28 16:39:27.740 12579 12579 W bile.challenge: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+06-28 16:39:27.761 12579 12579 D OpenGLRenderer: Skia GL Pipeline
+06-28 16:39:27.765  1661  1875 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 16:39:27.783  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:27.784 12579 12597 D         : HostConnection::get() New Host Connection established 0x70521404a180, tid 12597
+06-28 16:39:27.786  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:27.789 12579 12597 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 16:39:27.789  1531  1531 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 16:39:27.790 12579 12597 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+06-28 16:39:27.790 12579 12597 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 16:39:27.790 12579 12597 D OpenGLRenderer: Swap behavior 1
+06-28 16:39:27.790 12579 12597 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 16:39:27.791 12579 12597 D OpenGLRenderer: Swap behavior 0
+06-28 16:39:27.798 12579 12597 D EGL_emulation: eglCreateContext: 0x70521404e2c0: maj 3 min 1 rcv 4
+06-28 16:39:27.820 12579 12597 D EGL_emulation: eglMakeCurrent: 0x70521404e2c0: ver 3 1 (tinfo 0x70521400db80)
+06-28 16:39:27.821 12579 12597 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:39:27.821 12579 12597 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 16:39:27.824  1661  1875 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 16:39:27.841 12579 12597 D EGL_emulation: eglMakeCurrent: 0x70521404e2c0: ver 3 1 (tinfo 0x70521400db80)
+06-28 16:39:27.905  1809  1832 I ActivityManager: Displayed com.hackerone.mobile.challenge4/.MenuActivity: +614ms
+06-28 16:39:28.078  1661  1877 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.hackerone.mobile.challenge4#0
+06-28 16:39:28.078  1661  1877 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.hackerone.mobile.challenge4#0
+06-28 16:39:28.082  1661  1877 W SurfaceFlinger: Attempting to set client state on removed layer: Surface(name=4c2eadb Splash Screen com.hackerone.mobile.challenge4)/@0xf52ac45 - animation-leash#0
+06-28 16:39:28.082  1661  1877 W SurfaceFlinger: Attempting to destroy on removed layer: Surface(name=4c2eadb Splash Screen com.hackerone.mobile.challenge4)/@0xf52ac45 - animation-leash#0
+06-28 16:39:29.655  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@df6c7c1)
+06-28 16:39:29.656  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@df6c7c1)
+06-28 16:39:37.211  1809  1824 W ActivityManager: Launch timeout has expired, giving up wake lock!
+06-28 16:39:37.673  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 16:39:37.674  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 16:39:37.690  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 16:39:37.690  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 16:39:39.655  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@3360b66)
+06-28 16:39:39.656  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@3360b66)
+06-28 16:39:49.656  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@c601ea7)
+06-28 16:39:49.660  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@c601ea7)
+
+===================================================
+
+06-28 17:14:37.937 13172 13172 D FPASSWDPWN: onReceive is called
+06-28 17:14:37.937 13172 13172 D FPASSWDPWN: start_game rececived
+06-28 17:14:37.938 13172 13172 D FPASSWDPWN: start_game sent
+06-28 17:14:37.962  1531  1531 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 17:14:37.965 13172 13188 D         : HostConnection::get() New Host Connection established 0x70521404c000, tid 13188
+06-28 17:14:37.968  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 17:14:37.974  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 17:14:37.975 13172 13188 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 17:14:37.975 13172 13188 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+06-28 17:14:37.975 13172 13188 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 17:14:37.975 13172 13188 D OpenGLRenderer: Swap behavior 1
+06-28 17:14:37.976  1809  1821 I ActivityManager: START u0 {cmp=com.hackerone.mobile.challenge4/.MainActivity} from uid 10058
+06-28 17:14:37.985 13172 13188 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 17:14:37.985 13172 13188 D OpenGLRenderer: Swap behavior 0
+06-28 17:14:37.990 13172 13188 D EGL_emulation: eglCreateContext: 0x70521403e8c0: maj 3 min 1 rcv 4
+06-28 17:14:38.038 13172 13188 D EGL_emulation: eglMakeCurrent: 0x70521403e8c0: ver 3 1 (tinfo 0x70521400d460)
+06-28 17:14:38.050 13172 13188 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 17:14:38.051 13172 13188 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 17:14:38.051  1661  1875 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+06-28 17:14:38.057  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 17:14:38.087 13172 13188 D EGL_emulation: eglMakeCurrent: 0x70521403e8c0: ver 3 1 (tinfo 0x70521400d460)
+06-28 17:14:38.219  1661  1661 D SurfaceFlinger: duplicate layer name: changing Surface(name=AppWindowToken{b7c07de token=Token{30d8b19 ActivityRecord{2907a60 u0 com.challenge4_exploit/.MainActivity t85}}})/@0x60f04af - animation-leash to Surface(name=AppWindowToken{b7c07de token=Token{30d8b19 ActivityRecord{2907a60 u0 com.challenge4_exploit/.MainActivity t85}}})/@0x60f04af - animation-leash#1
+06-28 17:14:38.255 13082 13082 I com.hackerone.mobile.challenge4.MainActivity: Title
+06-28 17:14:38.292  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 17:14:38.295  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 17:14:38.295 13082 13091 D GameState: Called finalize on GameState
+06-28 17:14:38.295 13082 13091 W System  : A resource failed to call close.
+06-28 17:14:38.300  1531  1581 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 618496
+06-28 17:14:38.310 13082 13082 I MAZE    : 16.0
+06-28 17:14:38.313 13082 13099 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96f60)
+06-28 17:14:38.332  1809  1832 I ActivityManager: Displayed com.hackerone.mobile.challenge4/.MainActivity: +115ms
+06-28 17:14:38.346 13082 13099 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96f60)
+06-28 17:14:38.351 13082 13099 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96f60)
+06-28 17:14:38.358  1661  1691 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.challenge4_exploit#0
+06-28 17:14:38.358  1661  1691 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.challenge4_exploit#0
+06-28 17:14:38.362 13082 13099 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96f60)
+06-28 17:14:38.525 13172 13188 D EGL_emulation: eglMakeCurrent: 0x70521403e8c0: ver 3 1 (tinfo 0x70521400d460)
+06-28 17:14:38.541 13082 13099 D EGL_emulation: eglMakeCurrent: 0x705219a95240: ver 3 1 (tinfo 0x705219b96f60)
+06-28 17:14:38.705  1809  2994 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+06-28 17:14:38.705  1809  2994 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+06-28 17:14:38.705  1809  2994 I OpenGLRenderer: Initialized EGL, version 1.4
+06-28 17:14:38.705  1809  2994 D OpenGLRenderer: Swap behavior 1
+06-28 17:14:38.706  1809  2994 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-28 17:14:38.706  1809  2994 D OpenGLRenderer: Swap behavior 0
+06-28 17:14:38.711  1809  2994 D EGL_emulation: eglCreateContext: 0x7051f8e2bde0: maj 3 min 1 rcv 4
+06-28 17:14:38.717  1809  2994 D EGL_emulation: eglMakeCurrent: 0x7051f8e2bde0: ver 3 1 (tinfo 0x705210d2fe40)
+06-28 17:14:38.747  1809  2994 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 17:14:38.748  1809  2994 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+06-28 17:14:39.874  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@344a49)
+06-28 17:14:39.875  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@344a49)
+06-28 17:14:40.065  1809  2288 V BackupManagerConstants: getFullBackupRequiredNetworkType(...) returns 2
+06-28 17:14:40.065  1809  2288 V BackupManagerConstants: getFullBackupRequireCharging(...) returns
+true
+06-28 17:14:43.309 13172 13172 D FPASSWDPWN: onReceive is called
+06-28 17:14:43.310 13172 13172 D FPASSWDPWN: cereal received
+06-28 17:14:43.310 13172 13172 D FPASSWDPWN: filePath = game.state
+06-28 17:14:43.310 13172 13172 W System.err: java.io.IOException: Read-only file system
+06-28 17:14:43.310 13172 13172 W System.err:    at java.io.UnixFileSystem.createFileExclusively0(Native Method)
+06-28 17:14:43.310 13172 13172 W System.err:    at java.io.UnixFileSystem.createFileExclusively(UnixFileSystem.java:281)
+06-28 17:14:43.310 13172 13172 W System.err:    at java.io.File.createNewFile(File.java:1008)
+06-28 17:14:43.310 13172 13172 W System.err:    at com.challenge4_exploit.pwn.onReceive(pwn.java:86)
+06-28 17:14:43.310 13172 13172 W System.err:    at com.challenge4_exploit.MainActivity$1.onReceive(MainActivity.java:23)
+06-28 17:14:43.310 13172 13172 W System.err:    at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1353)
+06-28 17:14:43.310 13172 13172 W System.err:    at android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA.run(Unknown Source:2)
+06-28 17:14:43.310 13172 13172 W System.err:    at android.os.Handler.handleCallback(Handler.java:873)
+06-28 17:14:43.310 13172 13172 W System.err:    at android.os.Handler.dispatchMessage(Handler.java:99)
+06-28 17:14:43.310 13172 13172 W System.err:    at android.os.Looper.loop(Looper.java:193)
+06-28 17:14:43.310 13172 13172 W System.err:    at android.app.ActivityThread.main(ActivityThread.java:6642)
+06-28 17:14:43.311 13172 13172 W System.err:    at java.lang.reflect.Method.invoke(Native Method)
+06-28 17:14:43.311 13172 13172 W System.err:    at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-28 17:14:43.311 13172 13172 W System.err:    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-28 17:14:43.322 13082 13082 W System.err: java.io.FileNotFoundException: maze_game_win (No such
+file or directory)
+06-28 17:14:43.322 13082 13082 W System.err:    at java.io.FileInputStream.open0(Native Method)
+06-28 17:14:43.322 13082 13082 W System.err:    at java.io.FileInputStream.open(FileInputStream.java:231)
+06-28 17:14:43.322 13082 13082 W System.err:    at java.io.FileInputStream.<init>(FileInputStream.java:165)
+06-28 17:14:43.323 13082 13082 W System.err:    at java.io.FileReader.<init>(FileReader.java:72)
+06-28 17:14:43.323 13082 13082 W System.err:    at com.hackerone.mobile.challenge4.BroadcastAnnouncer.load(BroadcastAnnouncer.java:60)
+06-28 17:14:43.323 13082 13082 W System.err:    at com.hackerone.mobile.challenge4.GameState.initialize(GameState.java:36)
+06-28 17:14:43.323 13082 13082 W System.err:    at com.hackerone.mobile.challenge4.MazeMover.onReceive(MazeMover.java:73)
+06-28 17:14:43.323 13082 13082 W System.err:    at com.hackerone.mobile.challenge4.MainActivity$1.onReceive(MainActivity.java:35)
+06-28 17:14:43.323 13082 13082 W System.err:    at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1353)
+06-28 17:14:43.323 13082 13082 W System.err:    at android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA.run(Unknown Source:2)
+06-28 17:14:43.323 13082 13082 W System.err:    at android.os.Handler.handleCallback(Handler.java:873)
+06-28 17:14:43.323 13082 13082 W System.err:    at android.os.Handler.dispatchMessage(Handler.java:99)
+06-28 17:14:43.323 13082 13082 W System.err:    at android.os.Looper.loop(Looper.java:193)
+06-28 17:14:43.323 13082 13082 W System.err:    at android.app.ActivityThread.main(ActivityThread.java:6642)
+06-28 17:14:43.323 13082 13082 W System.err:    at java.lang.reflect.Method.invoke(Native Method)
+06-28 17:14:43.323 13082 13082 W System.err:    at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-28 17:14:43.323 13082 13082 W System.err:    at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-28 17:14:43.321 13172 13172 D FPASSWDPWN: cereal payload1 sent
+06-28 17:14:43.324 13172 13172 D FPASSWDPWN: cereal sent
+06-28 17:14:43.324  1809  1820 W BroadcastQueue: Background execution not allowed: receiving Intent { act=com.hackerone.mobile.challenge4.broadcast.MAZE_MOVER flg=0x10 (has extras) } to com.hackerone.mobile.challenge4/.MazeMover
+06-28 17:14:43.578 13172 13181 D GameState: Called finalize on GameState
+06-28 17:14:43.578 13172 13181 D GameState: Called finalize on GameState
+06-28 17:14:45.309  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.309  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.310  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.310  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.310  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.311  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.311  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.311  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.311  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.312  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.313  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.313  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.314  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.314  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.316  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.316  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.318  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.318  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.319  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.320  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.325  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.325  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.327  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.327  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.327  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.328  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.330  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.330  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.333  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.333  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.335  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.336  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.337  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.338  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.339  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.340  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.343  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.343  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.344  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.344  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.346  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.346  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.347  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.347  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.348  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.348  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.351  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.351  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.353  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.353  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.358  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.358  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.359  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.359  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.361  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.361  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.361  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.361  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.362  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.362  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.363  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.363  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.367  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.367  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.378  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.379  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.393  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.393  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.395  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.396  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.398  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.398  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.400  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.400  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.402  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.402  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.404  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.404  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.406  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.406  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.409  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.409  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.413  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.413  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.418  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.418  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.421  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.421  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.423  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.423  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.424  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.424  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.426  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.427  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.432  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.432  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.434  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.434  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.435  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.435  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.436  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.437  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.437  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.438  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.439  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.439  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.440  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.440  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.441  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.441  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.444  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.444  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.445  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.445  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.446  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.446  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.447  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.448  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.449  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.450  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.451  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.452  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.465  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.465  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.467  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.467  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.468  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.469  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.469  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.469  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.471  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.471  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.472  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.472  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.488  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.489  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.503  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.503  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.518  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.519  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.532  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.532  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.545  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.545  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.561  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.561  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.575  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.575  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.587  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.587  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.602  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.602  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.616  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.616  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.627  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.627  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.639  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.639  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.652  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.652  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.663  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.663  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.673  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.674  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.688  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.688  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:45.702  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:14:45.702  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:14:49.874  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@66e4205)
+06-28 17:14:49.875  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@66e4205)
+06-28 17:14:59.875  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@9edd25a)
+06-28 17:14:59.876  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@9edd25a)
+06-28 17:15:00.019  1717  1733 D hwcomposer: hw_composer sent 6 syncs in 457s
+06-28 17:15:00.916  1931  2198 I OpenGLRenderer: Davey! duration=900ms; Flags=0, IntendedVsync=44950514422838, Vsync=44950514422838, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=44950516568060, AnimationStart=44950516599240, PerformTraversalsStart=44950516620980, DrawStart=44950516790010, SyncQueued=44950516875750, SyncStart=44950516932370, IssueDrawCommandsStart=44950516972160, SwapBuffers=44950517477190, FrameCompleted=44951416677970, DequeueBufferDuration=1661000, QueueBufferDuration=2882000,
+06-28 17:15:07.539  1809  1823 E memtrack: Couldn't load memtrack module
+06-28 17:15:07.539  1809  1823 W android.os.Debug: failed to get memory consumption info: -1
+06-28 17:15:09.875  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@7e58168)
+06-28 17:15:09.876  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@7e58168)
+06-28 17:15:18.252  1675  1727 E storaged: getDiskStats failed with result NOT_SUPPORTED and size 0
+06-28 17:15:19.876  1809  2107 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@895f981)
+06-28 17:15:19.877  1809  1823 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@895f981)
+06-28 17:15:21.397  1809  1820 E memtrack: Couldn't load memtrack module
+06-28 17:15:21.397  1809  1820 W android.os.Debug: failed to get memory consumption info: -1
+
+=================
+kkkkhhkkhhjjhhjjjjllllkkhh
