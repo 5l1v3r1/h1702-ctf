@@ -1,0 +1,14 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.MenuActivity.1.onReceive(Landroid\/content\/Context;Landroid\/content\/Intent;)V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|\l}"];
+Node_1 [shape=record,label="{1\:\ 0x0006|\lif (r2.hasExtra(\"start_game\") == false) goto L_0x0012;\l}"];
+Node_2 [shape=record,label="{2\:\ 0x0008|\lr1.startActivity(new android.content.Intent(r1, com.hackerone.mobile.challenge4.MainActivity.class));\l}"];
+Node_3 [shape=record,label="{3\:\ 0x0012|SYNTHETIC\lRETURN\lORIG_RETURN\l|\lreturn;\l}"];
+Node_4 [shape=record,label="{4\:\ 0x0012|SYNTHETIC\lRETURN\l|\lreturn;\l}"];
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.MenuActivity.1.onReceive((r0_0 'this' com.hackerone.mobile.challenge4.MenuActivity$1), (r1_0 android.content.Context), (r2_0 android.content.Intent)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+Node_1 -> Node_2[style=dashed];
+Node_1 -> Node_4;
+Node_2 -> Node_3;
+}
+

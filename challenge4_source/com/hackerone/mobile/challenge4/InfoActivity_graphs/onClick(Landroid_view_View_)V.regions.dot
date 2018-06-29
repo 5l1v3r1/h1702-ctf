@@ -1,0 +1,10 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.InfoActivity.onClick(Landroid\/view\/View;)V" {
+subgraph cluster_Region_1109964923 {
+label = "R:10";
+node [shape=record,color=blue];
+Node_0 [shape=record,label="{0\:\ 0x0000|\l}"];
+}
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.InfoActivity.onClick((r0_0 'this' com.hackerone.mobile.challenge4.InfoActivity), (r1_0 android.view.View)) }"];
+MethodNode -> Node_0;
+}
+

@@ -1,0 +1,8 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.MenuActivity.1.\<init\>(Lcom\/hackerone\/mobile\/challenge4\/MenuActivity;)V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|\lr0.this$0 = r1;\l}"];
+Node_1 [shape=record,label="{1\:\ 0x0005|RETURN\l|\lreturn;\l}"];
+MethodNode[shape=record,label="{void com.hackerone.mobile.challenge4.MenuActivity.1.\<init\>((r0_0 'this' com.hackerone.mobile.challenge4.MenuActivity$1), (r1_0 com.hackerone.mobile.challenge4.MenuActivity)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+

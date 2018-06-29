@@ -1,0 +1,14 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.MenuActivity.1.onReceive(Landroid\/content\/Context;Landroid\/content\/Intent;)V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|0x0000: CONST_STR  (r0_1 java.lang.String) =  \"start_game\" \l0x0002: INVOKE  (r0_2 boolean) = (r2_0 android.content.Intent), (r0_1 java.lang.String) android.content.Intent.hasExtra(java.lang.String):boolean type: VIRTUAL \l}"];
+Node_1 [shape=record,label="{1\:\ 0x0006|0x0006: IF  (r0_2 boolean) == (0 ?[int, OBJECT, ARRAY, boolean, byte, short, char])  \-\> B:4:0x0012 \l}"];
+Node_2 [shape=record,label="{2\:\ 0x0008|0x0008: NEW_INSTANCE  (r0_3 android.content.Intent) =  A:\{JUMP: 0x0006 \-\> 0x0008\}\l0x000a: CONST_CLASS  (r2_1 android.content.Intent) =  com.hackerone.mobile.challenge4.MainActivity \l0x000c: INVOKE  (r0_3 android.content.Intent), (r1_0 android.content.Context), (r2_1 android.content.Intent) android.content.Intent.\<init\>(android.content.Context, java.lang.Class):void type: DIRECT \l0x000f: INVOKE  (r1_0 android.content.Context), (r0_3 android.content.Intent) android.content.Context.startActivity(android.content.Intent):void type: VIRTUAL \l}"];
+Node_3 [shape=record,label="{3\:\ 0x0012|SYNTHETIC\lRETURN\lORIG_RETURN\l|0x0012: RETURN   A:\{JUMP: 0x0006 \-\> 0x0012\}\l}"];
+Node_4 [shape=record,label="{4\:\ 0x0012|SYNTHETIC\lRETURN\l|0x0012: RETURN   A:\{JUMP: 0x0006 \-\> 0x0012\}\l}"];
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.MenuActivity.1.onReceive((r0_0 'this' com.hackerone.mobile.challenge4.MenuActivity$1), (r1_0 android.content.Context), (r2_0 android.content.Intent)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+Node_1 -> Node_2[style=dashed];
+Node_1 -> Node_4;
+Node_2 -> Node_3;
+}
+

@@ -1,0 +1,12 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.Dot.draw(Landroid\/graphics\/Canvas;Landroid\/graphics\/Rect;)V" {
+subgraph cluster_Region_2016927126 {
+label = "R:201";
+node [shape=record,color=blue];
+Node_0 [shape=record,label="{0\:\ 0x0000|\lr0 = ((float) (r11.right \- r11.left)) \/ ((float) r9.size);\lr10.drawRect(((float) r11.left) + (((float) r9.point.x) * r0), ((float) r11.top) + (((float) r9.point.y) * r0), (((float) r11.left) + (((float) r9.point.x) * r0)) + r0, (((float) r11.top) + (((float) r9.point.y) * r0)) + r0, r9.paint);\l}"];
+Node_1 [shape=record,label="{1\:\ 0x003e|\l}"];
+}
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.Dot.draw((r9_0 'this' com.hackerone.mobile.challenge4.Dot), (r10_0 android.graphics.Canvas), (r11_0 android.graphics.Rect)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+

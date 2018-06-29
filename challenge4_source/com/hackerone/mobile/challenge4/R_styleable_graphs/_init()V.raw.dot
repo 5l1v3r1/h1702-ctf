@@ -1,0 +1,8 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.R.styleable.\<init\>()V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|0x0000: INVOKE  (r0_0 'this' com.hackerone.mobile.challenge4.R$styleable) java.lang.Object.\<init\>():void type: DIRECT \l}"];
+Node_1 [shape=record,label="{1\:\ 0x0003|RETURN\l|0x0003: RETURN   \l}"];
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.R.styleable.\<init\>((r0_0 'this' com.hackerone.mobile.challenge4.R$styleable)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+

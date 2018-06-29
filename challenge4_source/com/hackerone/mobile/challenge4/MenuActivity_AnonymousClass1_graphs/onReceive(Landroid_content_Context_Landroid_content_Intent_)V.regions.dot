@@ -1,0 +1,34 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.MenuActivity.1.onReceive(Landroid\/content\/Context;Landroid\/content\/Intent;)V" {
+subgraph cluster_Region_969891921 {
+label = "R:1222314";
+node [shape=record,color=blue];
+subgraph cluster_Region_56312794 {
+label = "R:222314";
+node [shape=record,color=blue];
+subgraph cluster_IfRegion_994281424 {
+label = "IF B:1:0x0006 then R:223 else null";
+node [shape=record,color=blue];
+Node_1 [shape=record,label="{1\:\ 0x0006|\lif (r2.hasExtra(\"start_game\") == true) goto L_0x0008;\l}"];
+subgraph cluster_Region_205296614 {
+label = "R:223";
+node [shape=record,color=blue];
+Node_2 [shape=record,label="{2\:\ 0x0008|\lr1.startActivity(new android.content.Intent(r1, com.hackerone.mobile.challenge4.MainActivity.class));\l}"];
+Node_3 [shape=record,label="{3\:\ 0x0012|SYNTHETIC\lORIG_RETURN\l|\l}"];
+}
+}
+subgraph cluster_Region_1312008152 {
+label = "R:14";
+node [shape=record,color=blue];
+Node_4 [shape=record,label="{4\:\ 0x0012|SYNTHETIC\l|\l}"];
+}
+}
+}
+Node_0 [shape=record,color=red,label="{0\:\ 0x0000|\l}"];
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.MenuActivity.1.onReceive((r0_0 'this' com.hackerone.mobile.challenge4.MenuActivity$1), (r1_0 android.content.Context), (r2_0 android.content.Intent)) }"];
+MethodNode -> Node_0;
+Node_1 -> Node_2;
+Node_1 -> Node_4[style=dashed];
+Node_2 -> Node_3;
+Node_0 -> Node_1;
+}
+

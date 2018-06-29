@@ -1,0 +1,8 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.Dot.getPoint()Landroid\/graphics\/Point;" {
+Node_0 [shape=record,label="{0\:\ 0x0000|\l}"];
+Node_1 [shape=record,label="{1\:\ 0x0002|RETURN\l|\lreturn r0.point;\l}"];
+MethodNode[shape=record,label="{public android.graphics.Point com.hackerone.mobile.challenge4.Dot.getPoint((r0_0 'this' com.hackerone.mobile.challenge4.Dot)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+

@@ -1,0 +1,8 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.InfoActivity.onCreate(Landroid\/os\/Bundle;)V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|\lsuper.onCreate(r1);\lsetContentView((int) com.hackerone.mobile.challenge4.R.layout.activity_info);\l}"];
+Node_1 [shape=record,label="{1\:\ 0x0009|RETURN\l|\lreturn;\l}"];
+MethodNode[shape=record,label="{protected void com.hackerone.mobile.challenge4.InfoActivity.onCreate((r0_0 'this' com.hackerone.mobile.challenge4.InfoActivity), (r1_0 android.os.Bundle)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+

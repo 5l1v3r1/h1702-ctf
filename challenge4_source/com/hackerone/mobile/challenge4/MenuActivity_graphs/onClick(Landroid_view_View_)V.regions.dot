@@ -1,0 +1,52 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.MenuActivity.onClick(Landroid\/view\/View;)V" {
+subgraph cluster_Region_812974181 {
+label = "R:20267125918";
+node [shape=record,color=blue];
+Node_0 [shape=record,label="{0\:\ 0x0000|\lr2 = r2.getId();\l}"];
+subgraph cluster_IfRegion_1488848430 {
+label = "IF B:1:0x0007 then R:267 else R:125918";
+node [shape=record,color=blue];
+Node_1 [shape=record,label="{1\:\ 0x0007|\lif (r2 == com.hackerone.mobile.challenge4.R.id.StartGame) goto L_0x001a;\l}"];
+subgraph cluster_Region_190867334 {
+label = "R:267";
+node [shape=record,color=blue];
+Node_6 [shape=record,label="{6\:\ 0x001a|\lstartActivity(new android.content.Intent(r1, com.hackerone.mobile.challenge4.MainActivity.class));\l}"];
+Node_7 [shape=record,label="{7\:\ 0x0024|SYNTHETIC\lORIG_RETURN\l|\l}"];
+}
+subgraph cluster_Region_1742822269 {
+label = "R:125918 | ELSE_IF_CHAIN\l";
+node [shape=record,color=blue];
+subgraph cluster_IfRegion_2131696076 {
+label = "IF B:3:0x000c then R:259 else R:18 | ELSE_IF_CHAIN\l";
+node [shape=record,color=blue];
+Node_3 [shape=record,label="{3\:\ 0x000c|\lif (r2 == com.hackerone.mobile.challenge4.R.id.info) goto L_0x000f;\l}"];
+subgraph cluster_Region_1462300533 {
+label = "R:259";
+node [shape=record,color=blue];
+Node_5 [shape=record,label="{5\:\ 0x000f|\lstartActivity(new android.content.Intent(r1, com.hackerone.mobile.challenge4.InfoActivity.class));\l}"];
+Node_9 [shape=record,label="{9\:\ 0x0024|SYNTHETIC\l|\l}"];
+}
+subgraph cluster_Region_1610415681 {
+label = "R:18";
+node [shape=record,color=blue];
+Node_8 [shape=record,label="{8\:\ 0x0024|SYNTHETIC\l|\l}"];
+}
+}
+}
+}
+}
+Node_2 [shape=record,color=red,label="{2\:\ 0x0009|\l}"];
+Node_4 [shape=record,color=red,label="{4\:\ 0x000e|\l}"];
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.MenuActivity.onClick((r1_0 'this' com.hackerone.mobile.challenge4.MenuActivity), (r2_0 android.view.View)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+Node_1 -> Node_2[style=dashed];
+Node_1 -> Node_6;
+Node_6 -> Node_7;
+Node_3 -> Node_4[style=dashed];
+Node_3 -> Node_5;
+Node_5 -> Node_9;
+Node_2 -> Node_3;
+Node_4 -> Node_8;
+}
+

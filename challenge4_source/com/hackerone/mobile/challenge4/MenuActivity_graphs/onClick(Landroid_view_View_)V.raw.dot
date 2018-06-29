@@ -1,0 +1,24 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.MenuActivity.onClick(Landroid\/view\/View;)V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|0x0000: INVOKE  (r2_1 android.view.View) = (r2_0 android.view.View) android.view.View.getId():int type: VIRTUAL \l0x0004: CONST  (r0_0 ?[int, boolean, short, byte, char, OBJECT, ARRAY]) = (2131165191; \/\/ 0x7f070007 float:1.7944592E38 double:1.0529355065E\-314 ?[int, float, boolean, short, byte, char]) \l}"];
+Node_1 [shape=record,label="{1\:\ 0x0007|0x0007: IF  (r2_1 android.view.View) == (r0_0 ?[int, boolean, short, byte, char, OBJECT, ARRAY])  \-\> B:6:0x001a \l}"];
+Node_2 [shape=record,label="{2\:\ 0x0009|0x0009: CONST  (r0_1 ?[int, boolean, short, byte, char, OBJECT, ARRAY]) = (2131165253; \/\/ 0x7f070045 float:1.7944718E38 double:1.052935537E\-314 ?[int, float, boolean, short, byte, char]) A:\{JUMP: 0x0007 \-\> 0x0009\}\l}"];
+Node_3 [shape=record,label="{3\:\ 0x000c|0x000c: IF  (r2_1 android.view.View) == (r0_1 ?[int, boolean, short, byte, char, OBJECT, ARRAY])  \-\> B:5:0x000f \l}"];
+Node_4 [shape=record,label="{4\:\ 0x000e}"];
+Node_5 [shape=record,label="{5\:\ 0x000f|0x000f: NEW_INSTANCE  (r2_2 android.view.View) =  A:\{JUMP: 0x000c \-\> 0x000f\}\l0x0011: CONST_CLASS  (r0_2 java.lang.Class) =  com.hackerone.mobile.challenge4.InfoActivity \l0x0013: INVOKE  (r2_2 android.view.View), (r1_0 'this' com.hackerone.mobile.challenge4.MenuActivity), (r0_2 java.lang.Class) android.content.Intent.\<init\>(android.content.Context, java.lang.Class):void type: DIRECT \l0x0016: INVOKE  (r1_0 'this' com.hackerone.mobile.challenge4.MenuActivity), (r2_2 android.view.View) com.hackerone.mobile.challenge4.MenuActivity.startActivity(android.content.Intent):void type: VIRTUAL \l}"];
+Node_6 [shape=record,label="{6\:\ 0x001a|0x001a: NEW_INSTANCE  (r2_3 android.view.View) =  A:\{JUMP: 0x0007 \-\> 0x001a\}\l0x001c: CONST_CLASS  (r0_3 java.lang.Class) =  com.hackerone.mobile.challenge4.MainActivity \l0x001e: INVOKE  (r2_3 android.view.View), (r1_0 'this' com.hackerone.mobile.challenge4.MenuActivity), (r0_3 java.lang.Class) android.content.Intent.\<init\>(android.content.Context, java.lang.Class):void type: DIRECT \l0x0021: INVOKE  (r1_0 'this' com.hackerone.mobile.challenge4.MenuActivity), (r2_3 android.view.View) com.hackerone.mobile.challenge4.MenuActivity.startActivity(android.content.Intent):void type: VIRTUAL \l}"];
+Node_7 [shape=record,label="{7\:\ 0x0024|SYNTHETIC\lRETURN\lORIG_RETURN\l|0x0024: RETURN   A:\{JUMP: 0x000e \-\> 0x0024, JUMP: 0x0019 \-\> 0x0024\}\l}"];
+Node_8 [shape=record,label="{8\:\ 0x0024|SYNTHETIC\lRETURN\l|0x0024: RETURN   A:\{JUMP: 0x000e \-\> 0x0024, JUMP: 0x0019 \-\> 0x0024\}\l}"];
+Node_9 [shape=record,label="{9\:\ 0x0024|SYNTHETIC\lRETURN\l|0x0024: RETURN   A:\{JUMP: 0x000e \-\> 0x0024, JUMP: 0x0019 \-\> 0x0024\}\l}"];
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.MenuActivity.onClick((r1_0 'this' com.hackerone.mobile.challenge4.MenuActivity), (r2_0 android.view.View)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+Node_1 -> Node_2[style=dashed];
+Node_1 -> Node_6;
+Node_2 -> Node_3;
+Node_3 -> Node_4[style=dashed];
+Node_3 -> Node_5;
+Node_4 -> Node_8;
+Node_5 -> Node_9;
+Node_6 -> Node_7;
+}
+

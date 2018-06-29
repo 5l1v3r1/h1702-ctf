@@ -1,0 +1,8 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.InfoActivity.onCreate(Landroid\/os\/Bundle;)V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|0x0000: INVOKE  (r0_0 'this' com.hackerone.mobile.challenge4.InfoActivity), (r1_0 android.os.Bundle) android.support.v7.app.AppCompatActivity.onCreate(android.os.Bundle):void type: SUPER \l0x0003: CONST  (r1_1 android.os.Bundle) = (2131296283; \/\/ 0x7f09001b float:1.8210478E38 double:1.0530002745E\-314 ?[int, float, boolean, short, byte, char]) \l0x0006: INVOKE  (r0_0 'this' com.hackerone.mobile.challenge4.InfoActivity), (r1_1 android.os.Bundle) com.hackerone.mobile.challenge4.InfoActivity.setContentView(int):void type: VIRTUAL \l}"];
+Node_1 [shape=record,label="{1\:\ 0x0009|RETURN\l|0x0009: RETURN   \l}"];
+MethodNode[shape=record,label="{protected void com.hackerone.mobile.challenge4.InfoActivity.onCreate((r0_0 'this' com.hackerone.mobile.challenge4.InfoActivity), (r1_0 android.os.Bundle)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+

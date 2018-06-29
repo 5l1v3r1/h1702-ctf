@@ -1,0 +1,8 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.R.dimen.\<init\>()V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|\l}"];
+Node_1 [shape=record,label="{1\:\ 0x0003|RETURN\l|\lreturn;\l}"];
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.R.dimen.\<init\>((r0_0 'this' com.hackerone.mobile.challenge4.R$dimen)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+

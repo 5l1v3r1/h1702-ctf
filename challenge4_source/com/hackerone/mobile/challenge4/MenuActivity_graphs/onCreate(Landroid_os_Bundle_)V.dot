@@ -1,0 +1,8 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.MenuActivity.onCreate(Landroid\/os\/Bundle;)V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|\lsuper.onCreate(r4);\lsetContentView((int) com.hackerone.mobile.challenge4.R.layout.activity_menu);\l((android.widget.Button) findViewById(com.hackerone.mobile.challenge4.R.id.StartGame)).setOnClickListener(r3);\lr4 = (android.widget.TextView) findViewById(com.hackerone.mobile.challenge4.R.id.Name);\l((android.widget.Button) findViewById(com.hackerone.mobile.challenge4.R.id.info)).setOnClickListener(r3);\lr0 = android.view.animation.AnimationUtils.loadAnimation(r3, com.hackerone.mobile.challenge4.R.anim.myscale);\lr0.setFillAfter(true);\lr0.setStartOffset(0);\lr4.setAnimation(r0);\lregisterReceiver(new com.hackerone.mobile.challenge4.MenuActivity.AnonymousClass1(r3), new android.content.IntentFilter(\"com.hackerone.mobile.challenge4.menu\"));\l}"];
+Node_1 [shape=record,label="{1\:\ 0x004c|RETURN\l|\lreturn;\l}"];
+MethodNode[shape=record,label="{protected void com.hackerone.mobile.challenge4.MenuActivity.onCreate((r3_0 'this' com.hackerone.mobile.challenge4.MenuActivity), (r4_0 android.os.Bundle)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+

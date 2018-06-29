@@ -1,0 +1,8 @@
+digraph "CFG forcom.hackerone.mobile.challenge4.Dot.\<init\>(ILandroid\/graphics\/Point;Landroid\/graphics\/Paint;)V" {
+Node_0 [shape=record,label="{0\:\ 0x0000|0x0000: INVOKE  (r0_0 'this' com.hackerone.mobile.challenge4.Dot) java.lang.Object.\<init\>():void type: DIRECT \l0x0003: IPUT  (r1_0 int), (r0_0 'this' com.hackerone.mobile.challenge4.Dot) com.hackerone.mobile.challenge4.Dot.size int \l0x0005: IPUT  (r2_0 android.graphics.Point), (r0_0 'this' com.hackerone.mobile.challenge4.Dot) com.hackerone.mobile.challenge4.Dot.point android.graphics.Point \l0x0007: IPUT  (r3_0 android.graphics.Paint), (r0_0 'this' com.hackerone.mobile.challenge4.Dot) com.hackerone.mobile.challenge4.Dot.paint android.graphics.Paint \l}"];
+Node_1 [shape=record,label="{1\:\ 0x0009|RETURN\l|0x0009: RETURN   \l}"];
+MethodNode[shape=record,label="{public void com.hackerone.mobile.challenge4.Dot.\<init\>((r0_0 'this' com.hackerone.mobile.challenge4.Dot), (r1_0 int), (r2_0 android.graphics.Point), (r3_0 android.graphics.Paint)) }"];
+MethodNode -> Node_0;
+Node_0 -> Node_1;
+}
+
