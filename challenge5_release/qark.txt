@@ -1,0 +1,375 @@
+➜  qark git:(master) ✗ python qarkMain.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .d88888b.           d8888   8888888b.    888    d8P  
+d88P" "Y88b         d88888   888   Y88b   888   d8P   
+888     888        d88P888   888    888   888  d8P    
+888     888       d88P 888   888   d88P   888d88K     
+888     888      d88P  888   8888888P"    8888888b    
+888 Y8b 888     d88P   888   888 T88b     888  Y88b   
+Y88b.Y8b88P    d8888888888   888  T88b    888   Y88b  
+ "Y888888"    d88P     888   888   T88b   888    Y88b 
+        Y8b                                            
+INFO - Initializing...
+INFO - Identified Android SDK installation from a previous run.
+INFO - Initializing QARK
+
+
+Do you want to examine:
+[1] APK
+[2] Source
+
+Enter your choice:1   
+
+Do you want to:
+[1] Provide a path to an APK
+[2] Pull an existing APK from the device?
+
+Enter your choice:1
+
+Please enter the full path to your APK (ex. /foo/bar/pineapple.apk):
+Path:/home/me/Desktop/challenge5.apk
+INFO - Unpacking /home/me/Desktop/challenge5.apk
+INFO - Zipfile: <zipfile.ZipFile object at 0x7f58222ae090>
+INFO - Extracted APK to /home/me/Desktop/challenge5/
+/home/me/Desktop/apktool/AndroidManifest.xml
+Inspect Manifest?[y/n]n
+INFO - Determined minimum SDK version to be:26
+Procyon  15%|#########                                                        |
+WARNING - Backups enabled: Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+INFO - Checking provider
+INFO - Checking activity
+WARNING - The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+          com.hackerone.mobile.challenge5.MainActivity
+INFO - Checking activity-alias
+INFO - Checking services
+INFO - Checking receivers
+Press ENTER key to begin decompilation
+
+INFO - Please wait while QARK tries to decompile the code back to source using multiple decompilers. This may take a while.
+
+
+
+JD CORE   0%|                                                                 |
+
+JD CORE 100%|#################################################################|
+
+Procyon  99%|################################################################ |
+
+CFR 100%|#####################################################################|
+Decompilation may hang/take too long (usually happens when the source is obfuscaJD CORE   2%|#                                                                |
+Decompilation may hang/take too long (usually happens when the source is obfuscaJD CORE   7%|####                                                             |
+Decompilation may hang/take too long (usually happens when the source is obfuscaJD CORE  15%|#########                                                        |
+Decompilation may hang/take too long (usually happens when the source is obfuscaProcyon   1%|                                                                 |
+Decompilation may hang/take too long (usually happens when the source is obfuscaCFR  15%|##########                                                           |
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscaJD CORE  16%|##########                                                       |
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscaCFR  16%|###########                                                          |
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+Decompilation may hang/take too long (usually happens when the source is obfuscated).mpiled.
+At any time,Press C to continue and QARK will attempt to run SCA on whatever was decompiled.
+
+INFO - Trying to improve accuracy of the decompiled files
+INFO - Restored 20 file(s) out of 21 corrupt file(s)
+INFO - Decompiled code found at:/home/me/Desktop/challenge5/
+INFO - Finding all java files
+INFO - Finding all xml files
+
+[1] Exit
+[2] Begin Static Code Analysis
+Enter your choice:2
+INFO - Running Static Code Analysis...
+INFO - Looking for private key files in project
+
+
+Phone identifier access  0%|                                                  |
+
+Dynamically loading code  0%|                                                 |
+Dynamically loading code100%|#################################################|
+Hardcoded API Keys  0%|                                                       |
+Hardcoded API Keys100%|#######################################################|
+User created permissions  0%|                                                 |
+
+Detect exposed logs  0%|                                                      |
+Detect exposed logs100%|######################################################|
+Task Hijacking  0%|                                                           |
+Task Hijacking100%|###########################################################|
+External Storage Issues  0%|                                                  |
+External Storage Issues100%|##################################################|
+Hardcoded HTTP url  0%|                                                       |
+Hardcoded HTTP url100%|#######################################################|
+Access Control Checks  0%|                                                    |
+Access Control Checks100%|####################################################|
+Insecure functions  0%|                                                       |
+Insecure functions100%|#######################################################|
+Manifest File Checks100%|#####################################################|
+
+Webview Issues  0%|                                                           |
+Webview Issues100%|###########################################################|
+Crypto issues  0%|                                                            |
+Crypto issues100%|############################################################|
+Broadcast issues  0%|                                                         |
+Broadcast issues100%|#########################################################|
+Webview checks 38%|######################                                     |
+Webview checks100%|###########################################################|
+X.509 Validation  0%|                                                         |
+X.509 Validation100%|#########################################################|
+Pending Intents  0%|                                                          |
+Pending Intents100%|##########################################################|
+File Permissions (check 1) 40%|##################                             |
+File Permissions (check 1)100%|###############################################|
+File Permissions (check 2)  0%|                                               |
+File Permissions (check 2)100%|###############################################|
+
+
+
+
+
+
+====================================================================================================
+INFO - This class is exported from a manifest item: MainActivity
+INFO - Checking this file for vulns: /home/me/Desktop/challenge5/classes_dex2jar/com/hackerone/mobile/challenge5/MainActivity.java
+entries: 
+onCreate
+INFO - Checking for extras in this file: /home/me/Desktop/challenge5/classes_dex2jar/com/hackerone/mobile/challenge5/MainActivity.java from this entry point: onCreate
+INFO - Possible Extra: "url" of type: String
+INFO - This class extends and calls a method in : AppCompatActivity
+INFO - Checking this file for issues: /home/me/Desktop/challenge5/classes_dex2jar/android/support/v7/app/AppCompatActivity.java
+INFO - This class extends and calls a method in : FragmentActivity
+INFO - Checking this file for issues: /home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/FragmentActivity.java
+INFO - This class extends and calls a method in : BaseFragmentActivityApi16
+INFO - Checking this file for issues: /home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/BaseFragmentActivityApi16.java
+WARNING - This subclass extends a superclass, potentially via another superclass, which contains a sensitive method invocation: w, but does not appear to be tainted by user input. You should review this manually to determine whether the execution of this method by itself represents an issue. Extended class: /home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/FragmentActivity.java
+INFO - Checking for extras in this file: /home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/FragmentActivity.java from this entry point: onCreate
+INFO - Possible Extra: "android:support:next_request_index" of type: Int
+INFO - Checking for extras in this file: /home/me/Desktop/challenge5/classes_dex2jar/android/support/v7/app/AppCompatActivity.java from this entry point: onCreate
+INFO - Checking for extras in this file: /home/me/Desktop/challenge5/classes_dex2jar/com/hackerone/mobile/challenge5/MainActivity.java from this entry point: onCreate
+INFO - Possible Extra: "url" of type: String
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+INFO - No custom imports to investigate. The method is assumed to be in the standard libraries
+ISSUES - CRYPTO ISSUES
+INFO -  No issues to report
+ISSUES - BROADCAST ISSUES
+INFO -  No issues to report
+ISSUES - CERTIFICATE VALIDATION ISSUES
+INFO -  No issues to report
+ISSUES - PENDING INTENT ISSUES
+INFO -  No issues to report
+ISSUES - FILE PERMISSION ISSUES
+INFO -  No issues to report
+ISSUES - WEB-VIEW ISSUES
+INFO - FOUND 1 WEBVIEWS:
+INFO - ['mWebView', '/home/me/Desktop/challenge5/classes_dex2jar/com/hackerone/mobile/challenge5/MainActivity.java']
+INFO - WebView: mWebView
+INFO - File: /home/me/Desktop/challenge5/classes_dex2jar/com/hackerone/mobile/challenge5/MainActivity.java
+
+WARNING - While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView: mWebView If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html To validate this vulnerability, load the following local file in this WebView: file://<install_dir>/quark/poc/html/JS_WARNING.html
+
+INFO - BaseURL not redefined in this WebView.
+WARNING - File system access is enabled in this WebView.mWebView If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following local file in this WebView: file://<install_dir>/quark/poc/html/FILE_SYS_WARN.html
+
+WARNING - While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft.mWebViewTo validate this vulnerability, load the following local file in this WebView: file://<install_dir>/quark/poc/html/WV_CPA_WARNING.html
+
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowUniversalAccessFromFileURLs=false).mWebView
+INFO - JavaScript running in file scheme content CAN NOT access content from other origins (setAllowFileAccessFromFileURLs = false).mWebView
+INFO - addJavascriptInterface not used in this WebView.mWebView
+INFO - DOM Storage not enabled for this WebView.mWebView
+ISSUES - PLUGIN ISSUES
+INFO - API Key Found
+<?xml version="1.0" ?><manifest android:versionCode="1" android:versionName="1.0" package="com.hackerone.mobile.challenge5" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="27"/>
+        <activity android:name="com.hackerone.mobile.challenge5.MainActivity">
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO - Debug logs are detected
+This may allow potential leakage of information from Android applications.
+Debug logs should never be compiled into an application except during development.
+https://developer.android.com/reference/android/util/Log.html
+
+Filepath:
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/util/LogWriter.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/NotificationManagerCompat.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/widget/TextViewCompat.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/view/ViewCompat.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v7/app/AppCompatDelegate.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v7/app/TwilightManager.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v7/app/AppCompatDelegateImplV14.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v7/widget/ViewUtils.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v7/widget/AppCompatDrawableManager.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/graphics/drawable/AnimatorInflaterCompat.java
+10 debug logs were found in the application
+
+INFO - Verbose logs are detected
+This may allow potential leakage of information from Android applications.
+Verbose logs should never be compiled into an application except during development.
+https://developer.android.com/reference/android/util/Log.html
+
+Filepath:
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/content/LocalBroadcastManager.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/FragmentState.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/FragmentManagerImpl.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/BackStackState.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/BackStackRecord.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/LoaderManagerImpl.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/graphics/drawable/VectorDrawableCompat.java 
+/home/me/Desktop/challenge5/classes_dex2jar/android/support/constraint/Constraints.java
+8 verbose logs were found in the application
+
+ISSUES - PLUGIN ISSUES
+INFO - Be careful with use of Check permission function
+App maybe vulnerable to Privilege escalation or Confused Deputy Attack. This function can grant access to malicious application, lacking the appropriate permission, by assuming your applications permissions. This means a malicious application, without appropriate permissions, can bypass its permission check by using your applicationpermission to get access to otherwise denied resources. Use - checkCallingPermission instead.
+Filepath: /home/me/Desktop/challenge5/classes_dex2jar/android/support/v4/app/NotificationCompatSideChannelService.java
+Reference: https://developer.android.com/reference/android/content/Context.html#checkCallingOrSelfPermission(java.lang.String)
+
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+WARNING - Webview is loading http urls
+If WebView is allowing to load clear-text content from the Internet then it would be open to various forms of attack such as MiTM.
+Filepath: /home/me/Desktop/challenge5/classes_dex2jar/com/hackerone/mobile/challenge5/MainActivity.java
+
+INFO - File System Access is by default enabled
+setAllowFileAccess() and setAllowContentAccess() are by default true. This should be set to false to restrict access to local data since it is used to display content from locally stored HTML or fetch HTML and other content from the server.
+Reference: https://developer.android.com/reference/android/webkit/WebSettings.html
+Filepath: /home/me/Desktop/challenge5/classes_dex2jar/com/hackerone/mobile/challenge5/MainActivity.java
+
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+ISSUES - PLUGIN ISSUES
+INFO -  No issues to report
+WARNING - Please use the exploit APK to manually test for TapJacking until we have a chance to complete this module. The impact should be verified manually anyway, so have fun...
+ISSUES - ADB EXPLOIT COMMANDS
+INFO - Until we perfect this, for manually testing, run the following command to see all the options and their meanings: adb shell am. Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here: http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
+==>EXPORTED ACTIVITIES: 
+0: com.hackerone.mobile.challenge5.MainActivity
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge5.MainActivity from this entry point: onCreate
+INFO - Possible Extra: "url" of type: String
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge5.MainActivity from this entry point: onStart
+adb shell am start -a "android.intent.action.MAIN" -n "com.hackerone.mobile.challenge5/com.hackerone.mobile.challenge5.MainActivity" --es ""url"" "InsertStringHere"
+
+To view any sticky broadcasts on the device:
+                    adb shell dumpsys activity| grep sticky
+
+INFO - Support for other component types and dynamically adding extras is in the works, please check for updates
+
+For the potential vulnerabilities, do you want to:
+[1] Create a custom APK for exploitation
+[2] Exit
+Enter your choice:1
+Generating exploit payloads for all vulnerabilities
+com.hackerone.mobile.challenge5.MainActivity
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge5.MainActivity from this entry point: onCreate
+INFO - Possible Extra: "url" of type: String
+INFO - Checking for extras in this file: com.hackerone.mobile.challenge5.MainActivity from this entry point: onStart
+adding value to string: com.hackerone.mobile.challenge5
+adding value to string: com.hackerone.mobile.challenge5.MainActivity
+------------ Building Exploit APK ------------
+/home/me/qark/qark/settings.properties
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/
+Using highest found SDK 21
+/home/me/qark/qark/settings.properties
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/
+Using latest found build tools 21.1.2
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72221Library
+:app:prepareComAndroidSupportDesign2221Library
+:app:prepareComAndroidSupportRecyclerviewV72221Library
+:app:prepareComAndroidSupportSupportV42221Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt: error while loading shared libraries: libz.so.1: cannot open shared object file: No such file or directory
+
+
+/home/me/qark/qark/build/qark/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png: Error: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt'' finished with non-zero exit value 127
+:app:mergeDebugResources FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:mergeDebugResources'.
+> /home/me/qark/qark/build/qark/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-mdpi/abc_btn_switch_to_on_mtrl_00012.9.png: Error: com.android.ide.common.process.ProcessException: org.gradle.process.internal.ExecException: Process 'command '/home/me/qark/qark/android-sdk_r24.3.4-linux/android-sdk-linux/build-tools/21.1.2/aapt'' finished with non-zero exit value 127
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+
+BUILD FAILED
+
+Total time: 12.807 secs
+Do you want to install this to your device? (y/n)n
+INFO - The apk can be found in the /home/me/qark/qark/build/qark directory
+An html report of the findings is located in : /home/me/qark/qark/report
+Goodbye!
+➜  qark git:(master) ✗ 

